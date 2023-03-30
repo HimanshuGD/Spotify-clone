@@ -1,0 +1,56 @@
+body{
+    background-color: #142042;
+}@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+body{
+    background-color: #142042;
+    background-image: url(backg.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Quattrocento', serif;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style-type: none;
+    height: 65px;
+    background-color: #0d182a;
+    color: white;
+}
+nav h1{
+    margin-top: 10;
+    padding-top: 100;
+    margin-left: 100;
+}
+nav ul li{
+    padding:0 12px;
+}
+/* Adding styles to the links */
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1DB954;
+  }
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+}

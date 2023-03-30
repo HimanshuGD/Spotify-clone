@@ -1,0 +1,106 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+
+/* Applying styles to the body element */
+body {
+  background-color: #142042;
+}
+
+/* Setting margin and padding to 0 for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the navigation bar */
+nav {
+  font-family: 'Quattrocento', serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: #0d182a;
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+/* Adding styles to the images */
+img {
+  max-width: 500px;
+  height: auto;
+ /* display: block;*/
+  margin-bottom: 10px;
+}
+
+/* Adding styles to the links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1DB954;
+}
+
+/* Adding styles to the container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+/* Adding styles to the playlist items */
+.container > * {
+  flex: 1 1 180px; /* Set the width of each item */
+  margin: 10px; /* Add some margin */
+  padding: 10px; /* Add some padding */
+  text-align: center;
+}
+
+/* Making the playlist names larger */
+.container a {
+  font-size: 2.5rem;
+}
+
+/* Arranging the items in a zigzag */
+.container > :nth-child(even) {
+  transform: translateY(20px); /* Move the even items down */
+}
+
+/* Adding styles to the song info */
+.songinfo {
+  position: absolute;
+  left: 10vw;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Adding styles for media queries */
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: red;
+  }
+}

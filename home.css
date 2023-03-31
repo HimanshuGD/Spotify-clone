@@ -78,12 +78,12 @@ a:hover {
   flex: 1 1 180px; /* Set the width of each item */
   margin: 10px; /* Add some margin */
   padding: 10px; /* Add some padding */
-  text-align: center;
+  text-align: left;
 }
 
 /* Making the playlist names larger */
 .container a {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /* Arranging the items in a zigzag */

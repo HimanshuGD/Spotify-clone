@@ -18,10 +18,9 @@ let songs = [
     {songName: "Param Sundari", filePath: "songs/7.mp3", coverPath: "covers/1.jpg"},
     {songName: "Qaafirana", filePath: "songs/8.mp3", coverPath: "covers/7.jpg"},
     {songName: "Raanjhanaa", filePath: "songs/9.mp3", coverPath: "covers/12.jpg"},
-    {songName: "Dandiyaan", filePath: "songs/10.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Chahun Main Ya Naa", filePath: "songs/11.mp3", coverPath: "covers/13.jpg"},
-    {songName: "Sunn Raha Hai Na", filePath: "songs/12.mp3", coverPath: "covers/14.jpg"},
-    {songName: "Tum Hi Ho", filePath: "songs/13.mp3", coverPath: "covers/15.jpg"},
+    {songName: "Chahun Main Ya Naa", filePath: "songs/10.mp3", coverPath: "covers/13.jpg"},
+    {songName: "Sunn Raha Hai Na", filePath: "songs/11.mp3", coverPath: "covers/14.jpg"},
+    {songName: "Tum Hi Ho", filePath: "songs/12.mp3", coverPath: "covers/15.jpg"},
 
 ]
 
@@ -78,7 +77,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=12){
+    if(songIndex>=11){
         songIndex = 0
     }
     else{
